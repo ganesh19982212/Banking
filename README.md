@@ -47,7 +47,7 @@ Following are the steps of work flow:
 
 #### Main Menu
 <p align="middle">
-   <img src="../Banking_Admin/Images/Admin Portal.png" width="400"/>
+   <img src="/Banking_Admin/Images/Admin Portal.png" width="400"/>
 </p>
 
 #### Add User
