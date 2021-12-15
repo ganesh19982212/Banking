@@ -42,7 +42,7 @@ Following are the steps of work flow:
 
 #### Login
 <p align="middle">
-   <img src="../Banking_Admin/Images/Login.png" width="400"/>
+   <img src="/Banking_Admin/Images/Login.png" width="400"/>
 </p>
 
 #### Main Menu
