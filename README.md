@@ -42,7 +42,7 @@ Following are the steps of work flow:
 
 #### Login
 <p align="middle">
-   <img src="https://github.com/ganesh19982212/Banking/tree/master/Banking_Admin/Images/Login.png" width="400"/>
+   <img src="../master/Images/Login.png" width="400"/>
 </p>
 
 #### Main Menu
