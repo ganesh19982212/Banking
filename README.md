@@ -17,6 +17,7 @@ Following roles are implemented:
 
 ## Workflow (Functionalities)
 
+
 This project  is for Customer can view his Banking Profile and transfer Amount and Staff can Add , Delete Customer and Transfer Amount.
 Following are the steps of work flow:
 
@@ -41,67 +42,59 @@ Following are the steps of work flow:
 ### Banking Staff
 
 #### Login
-<p align="middle">
-   <img src="../master/Images/Login.png" width="400"/>
-</p>
+
+![Login](https://user-images.githubusercontent.com/92635926/146214278-0c9b3d6d-ff11-4146-9e3b-e027e95ec9a8.png)
 
 #### Main Menu
-<p align="middle">
-   <img src="/Banking_Admin/Images/Admin Portal.png" width="400"/>
-</p>
+
+![Admin Portal](https://user-images.githubusercontent.com/92635926/146214824-c57c9cf1-fa9a-4c82-8d0d-33f1a7a54235.png)
 
 #### Add User
-<p align="middle">
-   <img src="../Banking_Admin/Images/Add User.png" width="400"/>
-</p>
+
+![Add User](https://user-images.githubusercontent.com/92635926/146215080-b793de9f-020a-42bb-b350-33418114f6db.png)
 
 #### Update User Details
-<p align="middle">
-   <img src="../Banking_Admin/Images/Update.png" width="400"/>
-</p>
+
+![Update](https://user-images.githubusercontent.com/92635926/146215217-a4052615-23e9-4bfe-9912-ae7c404602f0.png)
 
 #### Profile View
-<p align="middle">
-   <img src="../Banking_Admin/Images/Profile page.png" width="400"/>
-</p>
+
+![Profile page](https://user-images.githubusercontent.com/92635926/146215288-48aaaed2-dfed-46f5-aebf-174832aa31ea.png)
 
 #### Delete User Account
-<p align="middle">
-   <img src="../Banking_Admin/Images/View Before Delete.png" width="400"/>
-   <img src="../Banking_Admin/Images/Before Delete.png" width="400"/>
-</p>
+
+![View Before Delete](https://user-images.githubusercontent.com/92635926/146215375-9fafb420-4680-4e76-89df-e51ff605b154.png)
+
+![Before Delete](https://user-images.githubusercontent.com/92635926/146215447-6a8bc094-cf92-417e-897d-7f2956b48fa4.png)
 
 #### Logout
-<p align="middle">
-   <img src="../Banking_Admin/Images/Logout.png" width="400"/>
-</p>
+
+![Logout](https://user-images.githubusercontent.com/92635926/146215519-4b38ebb5-9a3f-492b-a3ac-5fa4588ecf28.png)
 
 ### Banking User
 
 #### Login
-<p align="middle">
-   <img src="../Banking_User/Images/Login Page.png" width="400"/>
-   <img src="../Banking_User/Images/Invalid Login.png" width="400"/>
-</p>
+
+![Login Page](https://user-images.githubusercontent.com/92635926/146215789-32090afe-504f-47bf-ab7f-d15d5699ccc2.png)
+
+![Invalid Login](https://user-images.githubusercontent.com/92635926/146215877-cb092072-0f98-42ed-874f-48f950a1131e.png)
 
 #### Main Menu
-<p align="middle">
-   <img src="../Banking_User/Images/Main Menu.png" width="400"/>
-</p>
+
+![Main Menu](https://user-images.githubusercontent.com/92635926/146215939-70a2ca52-d0af-42e9-85ad-4f0257af446e.png)
 
 #### Profile
-<p align="middle">
-   <img src="../Banking_User/Images/Profile.png" width="400"/>
-</p>
+
+![Profile](https://user-images.githubusercontent.com/92635926/146216019-872ec345-927f-4194-b97d-207534062596.png)
 
 #### Transfer
-<p align="middle">
-   <img src="../Banking_User/Images/Transfer.png" width="400"/>
-   <img src="../Banking_User/Images/Transferred.png" width="400"/>
-</p>
+
+![Transfer](https://user-images.githubusercontent.com/92635926/146216067-b37a1305-451e-4705-8dff-a9ec0b1f66ea.png)
+
+![Transferred](https://user-images.githubusercontent.com/92635926/146216122-79d01fc9-4156-487f-a236-a06e3fa0c8c1.png)
 
 #### Logout
-<p align="middle">
-   <img src="../Banking_User/Images/Logout.png" width="400"/>
-   <img src="../Banking_User/Images/Logout Page.png" width="400"/>
-</p>
+
+![Logout](https://user-images.githubusercontent.com/92635926/146216196-08d05143-dde9-45d0-b067-4fa58249a996.png)
+
+![Logout Page](https://user-images.githubusercontent.com/92635926/146216264-ca2da95f-fe90-4f13-9fea-f6e60ee1fa5b.png)
