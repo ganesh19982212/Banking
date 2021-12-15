@@ -1,0 +1,59 @@
+// Queries used in Project
+
+use Banking;
+
+Create table Register(UserName varchar(10) not null,
+ Account_Number Varchar(12) not null ,
+ Name varchar(20) not null,
+ Gender varchar(10) not null ,
+ Date date not null ,
+ E_mail varchar(100) not null ,
+ MobileNo varchar(10) not null ,
+ Password Varchar(20) not null ,
+ primary key (Account_Number) ,
+ Unique (UserName , Account_Number));
+
+Create table AmountData (AccountNumber varchar(12) ,
+ Amount decimal(15,2) ,
+ Primary key(AccountNumber) ,
+ foreign key (AccountNumber) references Register(Account_Number)
+ on delete cascade);
+
+DELIMITER //
+   CREATE PROCEDURE InsertCustomerData(UserName varchar(10) , AccountNumber Varchar(12) ,
+	Name varchar(20) , Gender varchar(10) , Date date , E_mail varchar(100)  , MobileNo varchar(10) ,
+	Password Varchar(20) ,Amount decimal(15,2))
+      BEGIN
+         INSERT INTO Register(UserName , Account_Number , Name , Gender , Date , E_mail , MobileNo , Password) 
+			VALUES(UserName , AccountNumber , Name , Gender , Date , E_mail , MobileNo , Password);
+         INSERT INTO AmountData(AccountNumber,Amount) VALUES (AccountNumber,Amount);
+      END
+      //
+DELIMITER ;
+
+select R.UserName , R.Account_Number , R.Name , R.Gender ,  R.Date ,  R.E_mail , R.MobileNo , R.Password , A.Amount
+	from Register as R left join AmountData as A  on R.Account_Number = A.AccountNumber;
+
+
+
+
+//Manually performed Queries for testing 
+
+
+call InsertCustomerData('ganesh0791' , '310616205001' , 'Ganesh S' , 'Male' ,
+	str_to_date('07/29/1991','%m/%d/%Y') , 'gan123@gmail.com' , '7550101234' , 'gan123' , 5000.00);
+
+select  R.Account_Number , R.Name , R.Gender ,  R.Date ,  R.E_mail , R.MobileNo , A.Amount
+	from Register as R left join AmountData as A  on R.Account_Number = A.AccountNumber
+    	where R.Account_Number = '310616205001';
+
+
+delete from Register where Account_Number = '310616205001';
+
+drop table Register;
+
+drop table AmountData; 
+
+select * from AmountData;
+
+select * from Register;
